@@ -1,0 +1,1 @@
+powercfg /import c:\Users\pedro\Downloads\scheme.pow

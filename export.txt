@@ -1,0 +1,4 @@
+powercfg -list > power.txt
+for /f "delims=" %i in ('find "NEW" power.txt') do set cortex=%i
+for /f "delims=" %i in ('echo %cortex:~19,37%') do set CORTEX_GUID=%i
+powercfg /export c:\Users\pedro\scheme.pow %CORTEX_GUID%

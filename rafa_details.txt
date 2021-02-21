@@ -1,0 +1,1 @@
+powercfg /import c:\Users\exlif\Downloads\scheme.pow
